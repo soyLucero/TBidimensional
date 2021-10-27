@@ -1,0 +1,41 @@
+body{
+    background: #A770EF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.caja{
+    margin:90px 25px;
+    width: 200px;
+    height: 200px;
+    background: crimson;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+    transition: all 1s;
+}
+.caja:nth-child(1){
+    background: purple;
+   
+}
+.caja:nth-child(1):hover{
+    transform: translateY(100px);
+}
+.caja:nth-child(2){
+    background: rgb(14, 223, 42);   
+
+}
+.caja:nth-child(2):hover{
+    transform: rotate(45deg);
+}
+.caja:nth-child(3){
+    display: block;
+
+}
+.caja:nth-child(3):hover{
+    transform: scale(2);
+}
